@@ -9,7 +9,7 @@
     * [ant 安装及配置 ](ch0/ant.md)
     * [git 安装及配置](ch0/jenkins.md)
     * [mysql 安装及配置](ch0/mysql.md)
-    * [maven 安装及配置](ch0/maven .md)
+    * [maven 安装及配置](ch0/maven.md)
     * [python安装及配置](ch0/python.md)
     * [node安装及配置](ch0/node.md)
     * [gitbook安装及配置](ch0/gitbook.md)
