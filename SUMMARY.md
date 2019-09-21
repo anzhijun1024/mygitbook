@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [jenkins实战之测试环境的持续集成](README.md)
 * [第零讲：软件环境准备](ch0/preface.md)
     * [检索实操](ch0/RepSearchPractice.md)
     * [基础任务](ch0/RepTaskBasic.md)
