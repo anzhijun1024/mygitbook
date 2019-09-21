@@ -1,11 +1,18 @@
 # Summary
 
-* [jenkins实战之测试环境的持续集成](README.md)
+* [jenkins实战之测试环境的持续集成-阿里云](README.md)
 * [第零讲：软件环境准备](ch0/preface.md)
-    * [检索实操](ch0/RepSearchPractice.md)
-    * [基础任务](ch0/RepTaskBasic.md)
-    * [进阶任务](ch0/RepTaskAdvanced.md)
-    * [个人教程](ch0/handbook.md)
+    * [java1.8   安装及配置](ch0/RepSearchPractice.md)
+    * [jmeter5.1 安装及配置](ch0/RepTaskBasic.md)
+    * [tomcat9   安装及配置](ch0/RepTaskAdvanced.md)
+    * [jenkins   安装及配置](ch0/handbook.md)
+    * [ant       安装及配置 ](ch0/handbook1.md)
+    * [mysql     安装及配置](ch0/handbook2.md)
+    * [maven     安装及配置](ch0/handbook3.md）
+    * [python    安装及配置](ch0/handbook4.md）
+    * [node      安装及配置](ch0/handbook5.md）
+    * [gitbook   安装及配置](ch0/handbook6.md
+
 * [第一讲：从现实问题到学科信息](ch1/README.md)
     * [检索实操](ch0/RepSearchPractice.md)
     * [基础任务](ch1/RepTaskBasic.md)
