@@ -1,18 +1,18 @@
 # Summary
 
 * [jenkins实战之测试环境的持续集成-阿里云](README.md)
-* [第一章：环境准备](ch0/preface.md)
-  * [1. java1.8 安装及配置](ch0/java.md)
-  * [2. jmeter5.1 安装及配置](ch0/jmeter.md)
-  * [0.3 tomcat9 安装及配置](ch0/tomcat.md)
-  * [0.4 jenkins 安装及配置](ch0/jenkins.md)
-  * [0.5 ant 安装及配置 ](ch0/ant.md)
-  * [0.6 git 安装及配置](ch0/jenkins.md)
-  * [0.7 mysql 安装及配置](ch0/mysql.md)
-  * [0.8 maven 安装及配置](ch0/maven.md)
-  * [0.9 python安装及配置](ch0/python.md)
-  * [0.10 node安装及配置](ch0/node.md)
-  * [0.11 gitbook安装及配置](ch0/gitbook.md)
+* [第一章：环境准备](ch1/preface.md)
+  * [1. java1.8 安装及配置](ch1/java.md)
+  * [2. jmeter5.1 安装及配置](ch1/jmeter.md)
+  * [3. tomcat9 安装及配置](ch1/tomcat.md)
+  * [4. jenkins 安装及配置](ch1/jenkins.md)
+  * [5. ant 安装及配置 ](ch1/ant.md)
+  * [6. git 安装及配置](ch1/jenkins.md)
+  * [7. mysql 安装及配置](ch1/mysql.md)
+  * [8. maven 安装及配置](ch1/maven.md)
+  * [9. python安装及配置](ch1/python.md)
+  * [10. node安装及配置](ch1/node.md)
+  * [11.  gitbook安装及配置](ch1/gitbook.md)
 
 ---
 
