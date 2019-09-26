@@ -2,7 +2,7 @@
 
 * [jenkins实战之测试环境的持续集成-阿里云](README.md)
 * [第一章：环境准备](ch1/preface.md)
-  * [1. java1.8 安装及配置](ch1/java.md)
+  * [1. java1.8  我是安智军 安装及配置](ch1/java.md)
   * [2. jmeter5.1 安装及配置](ch1/jmeter.md)
   * [3. tomcat9 安装及配置](ch1/tomcat.md)
   * [4. jenkins 安装及配置](ch1/jenkins.md)
@@ -52,4 +52,6 @@
 * [参考文献](ps/ref.md)
 * [致谢](ps/thanks.md)
 * [后记](no_end/postscript.md)
+
+
 
