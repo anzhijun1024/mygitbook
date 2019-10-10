@@ -17,7 +17,7 @@
 ---
 
 * [第一讲：jenkins自动化部署gitbook](ch1/README.md)
-  * [检索实操](ch0/RepSearchPractice.md)
+  * [1、检查软件安装是否成功](ch0/RepSearchPractice.md)
   * [基础任务](ch1/RepTaskBasic.md)
   * [进阶任务](ch1/RepTaskAdvanced.md)
   * [个人教程](ch1/handbook.md)
