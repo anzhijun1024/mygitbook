@@ -1,8 +1,8 @@
 # Summary
 
 * [jenkins持续集成-阿里云](README.md)
-* [第一章：环境准备](ch1/preface.md)
-  * [1. java 安装及配置---阿里云](ch1/java.md)
+* [第一章：软件安装---阿里云](ch1/preface.md)
+  * [1. java1.8 安装及配置](ch1/java.md)
   * [2. jmeter5.1 安装及配置](ch1/jmeter.md)
   * [3. tomcat9 安装及配置](ch1/tomcat.md)
   * [4. jenkins 安装及配置](ch1/jenkins.md)
