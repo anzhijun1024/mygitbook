@@ -16,7 +16,7 @@
 
 ---
 
-* [第一讲：使用jenkins实现gitbook自动化部署](ch1/README.md)
+* [第一讲：jenkins自动化部署gitbook](ch1/README.md)
   * [检索实操](ch0/RepSearchPractice.md)
   * [基础任务](ch1/RepTaskBasic.md)
   * [进阶任务](ch1/RepTaskAdvanced.md)
