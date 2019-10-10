@@ -1,7 +1,7 @@
 # Summary
 
 * [jenkins持续集成-阿里云](README.md)
-* [第一章：软件安装---阿里云](ch1/preface.md)
+* [第零章：软件安装---阿里云](ch1/preface.md)
   * [1. java1.8 安装及配置](ch1/java.md)
   * [2. jmeter5.1 安装及配置](ch1/jmeter.md)
   * [3. tomcat9 安装及配置](ch1/tomcat.md)
@@ -16,7 +16,7 @@
 
 ---
 
-* [第一讲：从现实问题到学科信息](ch1/README.md)
+* [第一讲：使用jenkins实现gitbook自动化部署](ch1/README.md)
   * [检索实操](ch0/RepSearchPractice.md)
   * [基础任务](ch1/RepTaskBasic.md)
   * [进阶任务](ch1/RepTaskAdvanced.md)
