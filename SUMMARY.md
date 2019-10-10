@@ -21,7 +21,7 @@
   * [基础任务](ch1/RepTaskBasic.md)
   * [进阶任务](ch1/RepTaskAdvanced.md)
   * [个人教程](ch1/handbook.md)
-* [第二讲：快速获取专业领域关键信息](ch2/README.md)
+* [第二讲：Python接口自动化学习笔记](ch2/README.md)
   * [检索实操](ch0/RepSearchPractice.md)
   * [基础任务](ch2/RepTaskBasic.md)
   * [进阶任务](ch2/RepTaskAdvanced.md)
