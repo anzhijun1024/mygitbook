@@ -1,10 +1,33 @@
 {
+  "title": "demo",
+  "description": "demo",
+  "language": "zh",
+  "plugins": [
+  "-highlight",
+  "splitter",
+  "tbfed-pagefooter",  
+  "fontsettings",      
+  "back-to-top-button",
+  "theme-comscore",
+  "-lunr",
+  "search",
+  "collapsible-menu"
+	],
+  "pluginsConfig": {
+	        "tbfed-pagefooter": {
+            "copyright": "",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+			},
+			
+			"fontsettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 12
+			}
+	 
+	}
+	 
 
-    "plugins": [
-        "collapsible-menu",
-        "back-to-top-button",
-        "theme-comscore",
-        "splitter"
-    ]
 
 }
