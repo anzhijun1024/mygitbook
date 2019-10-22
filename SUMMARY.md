@@ -10,9 +10,6 @@
   * [1-1 接口自动化课程简介](ch0/RepSearchPractice.md)
   * [1-2 接口测试课程大纲](ch1/RepTaskBasic.md)
   * [1-3 接口测试概述](ch1/RepTaskAdvanced.md)
-  * 
-  * 
-  * 
 * [第二章：接口测试工具----Postman](ch2/README.md)
   * [检索实操](ch0/RepSearchPractice.md)
   * [基础任务](ch2/RepTaskBasic.md)
