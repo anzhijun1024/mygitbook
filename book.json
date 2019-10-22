@@ -1,3 +1,10 @@
 {
 
+    "plugins": [
+        "collapsible-menu",
+        "back-to-top-button",
+        "theme-comscore",
+        "splitter"
+    ]
+
 }
