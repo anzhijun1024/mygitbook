@@ -1,18 +1,8 @@
 # Summary
 
-* [jenkins持续集成-阿里云](README.md)
-* [第零章：软件安装---阿里云](ch1/preface.md)
+* [Python接口自动化测试学习笔记](README.md)
+* [简述](ch1/preface.md)
   * [1. java1.8 安装及配置](ch1/java.md)
-  * [2. jmeter5.1 安装及配置](ch1/jmeter.md)
-  * [3. tomcat9 安装及配置](ch1/tomcat.md)
-  * [4. jenkins 安装及配置](ch1/jenkins.md)
-  * [5. ant 安装及配置 ](ch1/ant.md)
-  * [6. git 安装及配置](ch1/jenkins.md)
-  * [7. mysql 安装及配置](ch1/mysql.md)
-  * [8. maven 安装及配置](ch1/maven.md)
-  * [9. python安装及配置](ch1/python.md)
-  * [10. node安装及配置](ch1/node.md)
-  * [11.  gitbook安装及配置](ch1/gitbook.md)
 
 ---
 
@@ -52,4 +42,6 @@
 * [参考文献](ps/ref.md)
 * [致谢](ps/thanks.md)
 * [后记](no_end/postscript.md)
+
+
 
