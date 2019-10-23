@@ -53,14 +53,20 @@
 CI测试也成为持续集成测试，是自动化测试的一种；其过程包括编译代码、准备数据库、执行测试、分析代码、创建安装和部署内容以及生成文档等几个内容。
 
 
+### 结果分析
+
+根据测试报告来分析接口测试结果。
 
 
+## 参考资料
 
+•  https://baike.baidu.com/item/接口/2886384?fr=aladdin
 
+•  https://blog.csdn.net/lovesoo/article/details/78558303?locationNum=9&fps=1
 
+•  https://www.cnblogs.com/imyalost/p/7430126.html
 
-
-
+•  https://testerhome.com/topics/11051
 
 
 
