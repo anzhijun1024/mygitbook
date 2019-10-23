@@ -36,5 +36,28 @@
     * [2-14 Postman命令执行](ch2/handbook11.md)
     * [2-15 Postman jenkins集成](ch2/handbook12.md)
 * [第三章：接口测试工具----Postman](ch3/README.md)
-    * [2-15 Postman jenkins集成](ch3/RepTaskAdvanced.md.md)
+    * [3-1 Postman jenkins集成](ch3/RepTaskAdvanced.md)
+* [第四章：Python接口测试](ch4/README.md)
+    * [4-1 Postman jenkins集成](ch4/RepTaskAdvanced.md)
+* [第五章：Restful接口开发与测试](ch5/README.md)
+    * [5-1 Postman jenkins集成](ch5/RepTaskAdvanced.md)
+* [第六章：Mock工具—Json Server](ch6/README.md)
+    * [6-1 Postman jenkins集成](ch6/RepTaskAdvanced.md)
+* [第七章：HttpRunner接口自动化框架](ch7/README.md)
+    * [7-1 Postman jenkins集成](ch7/RepTaskAdvanced.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
