@@ -3,7 +3,6 @@
 * [Python接口自动化测试学习笔记---我要自学网](README.md)
 * [简述](ch1/preface.md)
   * [学习心得](ch1/java.md)
-* 第三章：接口测试工具—Jmeter
 
 ## 每天学习2小时 坚持5周
 
@@ -35,5 +34,5 @@
   * [2-13 Postman构建工作流](ch2/handbook10.md)
   * [2-14 Postman命令执行](ch2/handbook11.md)
   * [2-15 Postman jenkins集成](ch2/handbook12.md)
-
+* [第三章：接口测试工具----Postman](ch3/README.md)
 
