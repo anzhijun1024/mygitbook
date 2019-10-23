@@ -7,7 +7,7 @@
     * [windows下安装jmeter](ch0/jmeter.md)
     * [学习心得](ch1/java.md)
 
-## 每天学习2小时 坚持5周
+## 每天学习2小时 坚持5周 拿下接口自动化
 * [第一章：接口测试基础](ch1/README.md)
     * [1-1 接口自动化课程简介](ch1/RepSearchPractice.md)
     * [1-2 接口测试课程大纲](ch1/RepTaskBasic.md)
