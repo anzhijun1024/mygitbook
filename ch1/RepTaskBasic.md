@@ -22,6 +22,14 @@ API（Application Programming Interface,应用程序编程接口）是一些预�
 的 API 调用使得站点之间的内容关联性更强，同时这些开放的平台也为用户、开发者和中小网站带来了更大的价值
 
 
-**### **
+[**微信开放平台 **](https://open.weixin.qq.com/)
+
+[**气象大数据交易平台**](http://data.cma.cn/Market/index.html)
 
 
+
+
+
+![](/assets/微信开放平台.jpg)
+
+![](/assets/气象.jpg)
