@@ -19,7 +19,7 @@
     * [1-8 HTTP请求体 ](ch1/RepTaskAdvanced5.md)
     * [1-9 HTTP响应](ch1/RepTaskAdvanced6.md)
     * [1-10 JSON简介](ch1/RepTaskAdvanced7.md)
-    * [1-10 JSON数据解析 ](ch1/RepTaskAdvanced8md)
+    * [1-11 JSON数据解析](ch1/RepTaskAdvanced8md)
 * [第二章：接口测试工具----Postman](ch2/README.md)
     * [2-1 Postan简介](ch2/RepSearchPractice.md)
     * [2-2 Postman请求发送—GET](ch2/RepTaskBasic.md)
