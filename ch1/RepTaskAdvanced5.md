@@ -16,4 +16,5 @@ text/xml  XML 数据提交
 ## application/x-www-form-urlencoded 与 multipart/form-data 区别
 
 •  在没有 type=file 时候，用默认的  application/x-www-form-urlencoded 就行。
+
 •  在有  type=file 时候，要用 multipart/form-data 编码方式。浏览器会把表单以控件为单位分割，并且为每个部分加上 Content-Dispositon(form-data 或 file) 、 Content-Type (默认 text/plain)、 name (控件 name)等信息，并加上分割符(boundary)。
