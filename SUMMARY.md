@@ -35,4 +35,4 @@
   * [2-14 Postman命令执行](ch2/handbook11.md)
   * [2-15 Postman jenkins集成](ch2/handbook12.md)
 * [第三章：接口测试工具----Postman](ch3/README.md)
-
+  * [2-15 Postman jenkins集成](ch3/RepTaskAdvanced.md.md)
