@@ -34,24 +34,15 @@
   * [2-13 Postman构建工作流](ch2/handbook10.md)
   * [2-14 Postman命令执行](ch2/handbook11.md)
   * [2-15 Postman jenkins集成](ch2/handbook12.md)
-
-* [第三章：接口测试工具—Jmeter](ch3/README.md)
-* [3-1 Postan简介](ch3/RepSearchPracti.md)
-
-* [第四章：Python接口测试](ch4/README.md)
-* [4-1 Postan简介](ch4/RepSearchPracti52.md)
-
-
-* [第五章：Restful接口开发与测试](ch5/README.md)
-* [5-1 Postan简介](ch5/RepSearchPracti552.md)
-
-
-* [第六章：Mock工具—Json Server](ch6/README.md)
-* [6-1 Postan简介](ch6/RepSearchPracti30.md)
-
-
-* [第七章：HttpRunner接口自动化框架](ch7/README.md)
-
-* [7-1 Postan简介](ch7/RepSearchPract45i.md)
+ * [第三章：接口测试工具—Jmeter](ch3/README.md)
+  * [3-1 Postan简介](ch3/RepSearchPracti.md)
+ * [第四章：Python接口测试](ch4/README.md)
+  * [4-1 Postan简介](ch4/RepSearchPracti52.md)
+ * [第五章：Restful接口开发与测试](ch5/README.md)
+  * [5-1 Postan简介](ch5/RepSearchPracti552.md)
+ * [第六章：Mock工具—Json Server](ch6/README.md)
+  * [6-1 Postan简介](ch6/RepSearchPracti30.md)
+ * [第七章：HttpRunner接口自动化框架](ch7/README.md)
+  * [7-1 Postan简介](ch7/RepSearchPract45i.md)
 
 
