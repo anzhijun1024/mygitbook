@@ -23,7 +23,8 @@ tomcat是干什么的？
 账号：2696671285@qq.com
 密码：Oracle123
 ![](/assets/下载.jpg)
-开了vpn下载超快
+
+PS：开了vpn下载超快，没vpn慢慢下也能下载就是时间比较久
 ![](/assets/vpn.jpg)
 
 **
@@ -44,11 +45,37 @@ tomcat是干什么的？
 
 ![](/assets/移动jdk.png)
 
+**配置jdk的环境变量（重点内容） **
+
+```
+在根目录sudo vim etc/profile 在最后一行添加变量如下后退出保存
+# java8 环境配置
+export JAVA_HOME=/software/jdk8
+export CLASSPATH=$JAVA_HOME/lib/
+export PATH=$PATH:$JAVA_HOME/bin
+export PATH JAVA_HOME CLASSPATH
+```
+
+查看java的路径并配置环境变量
+![](/assets/配置java环境.jpg)
+刚才配置写错了
+![](/assets/java8.jpg)
+
+配置好环境变量后需要保存退出使配置文件生效
+使配置文件生效 在etc下运行文件生效命令 source profile(建议先执行sudo -s 命令)
+![](/assets/java配置成功.jpg)
 
 
 
+### 第二步：阿里云安装tomcat
+
+**1、下载tomcat **
+[官网地址](https://tomcat.apache.org/download-90.cgi)：https://tomcat.apache.org/download-90.cgi
+![](/assets/tomcat下载.jpg)
 
 
+**2、下载成功后 把tomcat上传到你自己的阿里云 我这里上传到azb目录下**
+![](/assets/tomcat上传.jpg)
 
 
 
