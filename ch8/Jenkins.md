@@ -80,7 +80,24 @@ sudo apt-get install libxrender-dev
 ![](/assets/登录jenkins.jpg)
 
 还有些插件没安装晚上处理
+[插件地址：](https://plugins.jenkins.io/)https://plugins.jenkins.io/
+解决方案是：按照提示去插件官网挨个下载，并在jenkins手动上传在重新启动jenkins就可以了
 
+**2、在官网搜索插件下载  例如stage-view**
+![](/assets/搜索.jpg)
+![](/assets/搜索到.jpg)
+![](/assets/查看历史版本.jpg)
+![](/assets/插件下载成功.jpg)
+
+**3、在jenkins上上传插件**
+![](/assets/上传依赖.jpg)
+
+**4、上传成功后重启jenkins后插件生效**
+成功后查看jenkins插件内无任何报错
+![](/assets/成功后无任何报错.jpg)
+
+
+## 到此 Jenkins在阿里云配置成功且运行正常
 
 
 
