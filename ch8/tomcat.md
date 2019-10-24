@@ -1,4 +1,5 @@
-[](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)# 1、阿里云部署tomcat
+[](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+# 1、阿里云部署tomcat
 
 
 ###　tomcat介绍
@@ -99,9 +100,6 @@ export JRE_HOME=/software/jdk8/jre
 ![](/assets/8080端口.jpg)
 
 启动tomcat 运行/software/tomcat9/bin 下的./startup.sh文件
-
-
-# ./startup.sh
 ![](/assets/运行tomcat9.jpg)
 
 到这一步之后就可以通过浏览器来访问了，输入http://云服务器的ip:8080
@@ -110,6 +108,6 @@ export JRE_HOME=/software/jdk8/jre
 ![](/assets/阿里云成功运行tomcat9.jpg)
 
 
-################## 本节教程完毕#############
+#本节教程完毕 2019年10月24日
 
 
