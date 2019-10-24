@@ -50,7 +50,7 @@
 * [Jenkins持续集成系列教程](ch8/README.md)
   * [1、阿里云部署tomcat](ch8/tomcat.md)
   * [2、tomcat中安装Jenkins](ch8/Jenkins.md)
-  * [3、使用Jenkins自动化部署gitbook](ch8/Jenkins.md)
+  * [3、使用Jenkins自动化部署gitbook](ch8/gitbook.md)
 
 
 
