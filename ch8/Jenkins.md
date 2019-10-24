@@ -79,7 +79,7 @@ sudo apt-get install libxrender-dev
 
 ![](/assets/登录jenkins.jpg)
 
-
+还有些插件没安装晚上处理
 
 
 
