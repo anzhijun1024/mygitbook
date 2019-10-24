@@ -74,10 +74,42 @@ export PATH JAVA_HOME CLASSPATH
 ![](/assets/tomcat下载.jpg)
 
 
-**2、下载成功后 把tomcat上传到你自己的阿里云 我这里上传到azb目录下**
+**2、下载成功后 把tomcat上传到你自己的阿里云（直接拖就可以） 我这里上传到azb目录下**
 ![](/assets/tomcat上传.jpg)
 
 
+**3、解压tomcat9并配置环境变量**
 
+解压并重命名
+![](/assets/解压并移动tomcat9.jpg)
+
+配置tomcat9的环境变量
+进去tomcat9的bin文件夹，通过编辑setclasspath.sh来配置jdk
+
+```
+# sudo vi setclasspath.sh
+export JAVA_HOME=/software/jdk8
+export JRE_HOME=/software/jdk8/jre
+```
+![](/assets/tomcat9环境配置.jpg)
+
+**4、阿里云启动tomcat**
+启动tomcat前确保阿里云的8080端口是否开放，没开放则开放（阿里云安全组）
+
+![](/assets/8080端口.jpg)
+
+启动tomcat 运行/software/tomcat9/bin 下的./startup.sh文件
+
+
+# ./startup.sh
+![](/assets/运行tomcat9.jpg)
+
+到这一步之后就可以通过浏览器来访问了，输入http://云服务器的ip:8080
+这里是：[我的阿里云的tomcat：](http://120.77.85.227:8080/)http://120.77.85.227:8080/
+
+![](/assets/阿里云成功运行tomcat9.jpg)
+
+
+################## 本节教程完毕#############
 
 
