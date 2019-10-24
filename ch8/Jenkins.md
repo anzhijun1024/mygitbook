@@ -71,6 +71,17 @@ sudo apt-get install libxrender-dev
 **重启过程有点漫长**
 ![](/assets/重启过程有点漫长.jpg)
 
+## 第5步：登录jenkins
+[地址：](http://120.77.85.227:8080/jenkins/)http://120.77.85.227:8080/jenkins/
+**1、输入账号密码 登录jenkins**
+账号：admin
+密码：admin123456
+
+![](/assets/登录jenkins.jpg)
+
+
+
+
 
 
 
