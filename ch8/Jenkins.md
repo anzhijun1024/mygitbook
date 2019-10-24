@@ -62,8 +62,14 @@ sudo apt-get install libxrender-dev
 **[解决方案：](https://www.cnblogs.com/sxdcgaq8080/p/10489326.html)**https://www.cnblogs.com/sxdcgaq8080/p/10489326.html
 
 具体解决方案请参考看上方解决地址
-这里的解决方案采用的是：
+这里的解决方案采用的是：去jenkins官网下载每周更新版（效果有很大改善）
+![](/assets/jenkins每周更新版.jpg)
+![](/assets/jenkins每周更新版有改善.jpg)
+![](/assets/创建管理员用户.jpg)
 
+![](/assets/示例配置.jpg)
+**重启过程有点漫长**
+![](/assets/重启过程有点漫长.jpg)
 
 
 
