@@ -29,9 +29,15 @@ AWT is not properly configured on this server. Perhaps you need to run your cont
 ```
 ![](/assets/jenkins问题解决.jpg)
 
+在次刷新依然报错
+
+[在次百度解决方案如下：](https://blog.csdn.net/ssrc0604hx/article/details/52057716)https://blog.csdn.net/ssrc0604hx/article/details/52057716
+
+再次重启tomcat后问题解决
+![](/assets/jenkins疑难问题解决.jpg)
 
 
-
+## 在线安装jenkins并配置
 
 
 
