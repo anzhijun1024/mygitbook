@@ -17,8 +17,7 @@
 ![](/assets/数据库新建成功.jpg)
 
 ### 第二步：下载项目源码
-[源码github地址：](https://github.com/HttpRunner/HttpRunnerManager)
-https://github.com/HttpRunner/HttpRunnerManager
+[源码github地址：](https://github.com/HttpRunner/HttpRunnerManager)https://github.com/HttpRunner/HttpRunnerManager
 
 该项目自2018年9月起已停止维护使用python开发
 **1、下载源码**
