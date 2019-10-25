@@ -95,6 +95,7 @@ python manage.py createsuperuser
 ![](/assets/生成迁移脚本.jpg)
 
 **迁移数据库成功**
+![](/assets/数据库迁移成功.jpg)
 
 **查看数据库是否成功**
 ![](/assets/数据库表迁移成功.jpg)
@@ -128,6 +129,8 @@ python manage.py createsuperuser
 我遇到问题汇总：
 1、rabbitMQ 装了半天
 2、依赖包问题装了好久 
+
+坚持就是胜利
 
 
 
