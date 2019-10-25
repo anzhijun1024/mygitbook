@@ -51,6 +51,10 @@
   * [1、阿里云部署tomcat](ch8/tomcat.md)
   * [2、tomcat中安装Jenkins](ch8/Jenkins.md)
   * [3、使用Jenkins自动化部署gitbook](ch8/gitbook.md)
+  
+* [HttpRunnerManager接口自动化测试平台系列教程](ch9/README.md)
+  * [1、windows本地搭建HttpRunnerManager接口自动化测试平台](ch9/local.md)
+
 
 
 
