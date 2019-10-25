@@ -56,6 +56,16 @@ RabbitMQ 是一个由 Erlang 语言开发的 AMQP(高级消息队列协议)的�
 
 **安装RabbitMQ**
 
+遇到问题服务启动成功却无法访问
+解决办法：完全卸载 rabbitMQ 包括注册表
+
+[卸载教程：](https://blog.csdn.net/anbang713/article/details/82872880)https://blog.csdn.net/anbang713/article/details/82872880
+[安装教程参考](https://www.cnblogs.com/saryli/p/9729591.html)：https://www.cnblogs.com/saryli/p/9729591.html
+![](/assets/MQ命令.jpg)
+![](/assets/rabbitmq成功.jpg)
+
+
+### 第四步：使用pycharm导入项目 配置环境 安装环境依赖包
 
 
 
