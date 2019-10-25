@@ -67,7 +67,7 @@ RabbitMQ 是一个由 Erlang 语言开发的 AMQP(高级消息队列协议)的�
 ### 第四步：使用pycharm导入项目 配置环境 安装环境依赖包
 
 **1、导入开源项目**
-
+![](/assets/数据库迁移成功.jpg)
 
 
 **2、数据库配置**
@@ -78,7 +78,9 @@ RabbitMQ 是一个由 Erlang 语言开发的 AMQP(高级消息队列协议)的�
 
 
 **3、安装依赖库文件**
-打开 cmd 命令窗口，切换到 HttpRunnerManager 目录，然后执行下面命令，自动安装需要的依赖库文件。 pip install -r requirements.txt
+打开 cmd 命令窗口，切换到 HttpRunnerManager 目录，然后执行下面命令，自动安装需要的依赖库文件。 pip install -r requirements.txt 我这里一个一个装的 用命令装一直报错 例如：pip install locust
+
+![](/assets/依赖包问题.jpg)
 
 
 
@@ -89,8 +91,13 @@ python manage.py migrate #应用到 db 生成数据表
 创建超级用户，用户后台管理数据库，并按提示输入相应用户名，密码，邮箱。
 python manage.py createsuperuser
 
+**生成迁移脚本**
+![](/assets/生成迁移脚本.jpg)
 
+**迁移数据库成功**
 
+**查看数据库是否成功**
+![](/assets/数据库表迁移成功.jpg)
 ###　第五步：启动服务　
 
 在项目根目录下面输入下面命令启动服务　python manage.py runserver
@@ -101,6 +108,26 @@ python manage.py createsuperuser
 登录: http://127.0.0.1:8000/api/login/
 后台数据库管理：http://127.0.0.1:8000/admin/
 
+**运行主程序**
+
+![](/assets/运行主程序.jpg)
+
+[注册页](http://127.0.0.1:8000/api/register/): http://127.0.0.1:8000/api/register/
+![](/assets/注册页进行注册.jpg)
+
+登录: http://127.0.0.1:8000/api/login/
+![](/assets/用户登录.jpg)
+
+登录成功页
+![](/assets/主页.jpg)
+
+## 本地搭建 HTTPRUNNERMANAGER 接口自动化测试平台成功 教程结束 2019年10月25日
+
+还遗留一些小问题 页面样式，百度API问题之后慢解决
+
+我遇到问题汇总：
+1、rabbitMQ 装了半天
+2、依赖包问题装了好久 
 
 
 
