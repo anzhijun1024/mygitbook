@@ -11,3 +11,20 @@
 ![](/assets/部署成功.jpg)
 
 ###　第一步：阿里云安装git
+
+在Ubuntu 16.04上安装Git
+
+步骤1：首先，通过运行以下命令确保您的系统和apt包列表完全更新：
+
+apt-get update -y
+apt-get upgrade -y
+
+
+步骤2：**输入apt install git 命令安装git** 
+使用以下命令来检查已安装的git版本：git --version  版本2.7.4 安装成功
+![](/assets/git安装.jpg)
+
+
+### 第二步：安装gitbook
+gitbook 核心是 node.js
+步骤1：首先，安装Node.js Node官网
