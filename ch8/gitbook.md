@@ -30,7 +30,7 @@ gitbook 核心是 node.js
 [node.js linux 下载安装请参考csdn](https://blog.csdn.net/qq_31708763/article/details/82690129)：https://blog.csdn.net/qq_31708763/article/details/82690129
 ![](/assets/node.jpg)
 
-如遇到npm软链不成功，建议去官网下载最新node方可解决
+**如遇到npm软链不成功，建议去官网下载最新node方可解决**
 
 ### 第三步：安装gitbook
 
@@ -62,7 +62,6 @@ ssh-keygen -t rsa -C "1010666711@qq.com"
 步骤2：在/root/.ssh 查看密钥
 ![](/assets/查看密钥.jpg)
 
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmbfkAO/jEZ1C41WTaAGoIhU9Vuu+Hu4288lntYTUU7UfnxeRbwDa27MHNuEqcSYAxtvJQN2xvoL2n1vqUP6JcxfKRty/Mn/QABreuI8BxgdlqLxYyQ4Ww3XiIV8CQQ+YTuTKz9IX7lMA4BPsbNmx5uBs7TIXllBhntiCbO46LG0R4oBtBBUqqhCJdrLwunW79X/6ppv48hZnRiOwY4oq1wrx8twaLrB5tHZo7E8rogC4P/zxlYxfxrizUdjkwSFv9iNhxmK3LqRbrPuxg5cMvaeJtCjSVSYLIT0sKsRfKz2DJBggQ5Cv6+/m18Vjw5oWVg84PFfVgL6vT9gEs96sH 1010666711@qq.com
 
 步骤3：git的密钥配置在github上
 ![](/assets/github密钥配置.jpg)
@@ -72,6 +71,50 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmbfkAO/jEZ1C41WTaAGoIhU9Vuu+Hu4288lntYTUU
 运行命令：ssh -T git@github.com
 提示：Hi xxx! You've successfully authenticated, but GitHub does not provide shell  access.即为成功
 ![](/assets/验证git密钥.jpg)
+
+### 第五步：jenkins配置测试节点及验证
+
+步骤1：配置节点（测试节点）
+
+![](/assets/节点配置01.jpg)
+![](/assets/节点配置02.jpg)
+
+步骤2：:启动测试节点
+![](/assets/启动配置节点.jpg)
+
+
+步骤3：:验证节点是否可用
+新建一个自由风格的项目、限定运行节点、配置shell命令
+![### ](/assets/测试节点验证01.jpg)
+![](/assets/验证节点02.jpg)
+输出结果
+![](/assets/验证节点03.jpg)
+
+### 第六步：实现gitbook在jenkins的自动部署
+
+步骤1：新建一个自由风格的项目
+![](/assets/集成01.jpg)
+
+步骤2：配置运行节点及源代码管理
+![](/assets/集成02.jpg)
+
+步骤3：配置shell语句后保存
+![](/assets/集成03.jpg)
+
+步骤4：立即构建项目后在控制台查看输出结果
+![](/assets/集成04.jpg)
+![](/assets/集成05.jpg)
+
+步骤5：输入ip地址查看是否配置成功 http://47.106.167.124:8080/mygitbook
+
+![](/assets/集成06.jpg)
+
+
+
+
+
+
+
 
 
 
