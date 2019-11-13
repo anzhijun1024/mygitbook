@@ -34,3 +34,18 @@ gitbook 核心是 node.js
 
 ### 第三步：安装gitbook
 
+gitbook Ubuntu下，在安装好nodejs后直接使用如下命令安装,依据自己安装的目录可能有权限问题，自行加上
+
+npm install -g gitbook-cli
+设置软链
+sudo ln -s /software/node/bin/gitbook /usr/local/bin/gitbook
+然后查看gitbook版本，检查是否安装成功。
+gitbook -V #查看gitbook版本
+
+![](/assets/gitbook01jpg.jpg)
+
+![](/assets/gitbook02.jpg)
+
+
+
+
