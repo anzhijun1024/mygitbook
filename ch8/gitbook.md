@@ -25,6 +25,12 @@ apt-get upgrade -y
 ![](/assets/git安装.jpg)
 
 
-### 第二步：安装gitbook
+### 第二步：安装node
 gitbook 核心是 node.js
-步骤1：首先，安装Node.js Node官网
+[node.js linux 下载安装请参考csdn](https://blog.csdn.net/qq_31708763/article/details/82690129)：https://blog.csdn.net/qq_31708763/article/details/82690129
+![](/assets/node.jpg)
+
+如遇到npm软链不成功，建议去官网下载最新node方可解决
+
+### 第三步：安装gitbook
+
