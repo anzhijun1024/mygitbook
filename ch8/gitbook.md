@@ -36,15 +36,49 @@ gitbook 核心是 node.js
 
 gitbook Ubuntu下，在安装好nodejs后直接使用如下命令安装,依据自己安装的目录可能有权限问题，自行加上
 
-npm install -g gitbook-cli
-设置软链
-sudo ln -s /software/node/bin/gitbook /usr/local/bin/gitbook
-然后查看gitbook版本，检查是否安装成功。
-gitbook -V #查看gitbook版本
-
+步骤1：运行命令
+    npm install -g gitbook-cli
+    
+步骤2：设置软链 
+    sudo ln -s /software/node/bin/gitbook /usr/local/bin/gitbook
+    
+步骤3：然后查看gitbook版本，检查是否安装成功
+     gitbook -V 
+ 
+ 具体流程如下图
 ![](/assets/gitbook01jpg.jpg)
 
 ![](/assets/gitbook02.jpg)
+
+
+
+
+### 第四步：安装gitbook及配置git密钥
+
+步骤1：linux生成密钥
+ssh-keygen -t rsa -C "1010666711@qq.com"
+![](/assets/git在linux环境中生成密钥.jpg)
+
+步骤2：在/root/.ssh 查看密钥
+![](/assets/查看密钥.jpg)
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCmbfkAO/jEZ1C41WTaAGoIhU9Vuu+Hu4288lntYTUU7UfnxeRbwDa27MHNuEqcSYAxtvJQN2xvoL2n1vqUP6JcxfKRty/Mn/QABreuI8BxgdlqLxYyQ4Ww3XiIV8CQQ+YTuTKz9IX7lMA4BPsbNmx5uBs7TIXllBhntiCbO46LG0R4oBtBBUqqhCJdrLwunW79X/6ppv48hZnRiOwY4oq1wrx8twaLrB5tHZo7E8rogC4P/zxlYxfxrizUdjkwSFv9iNhxmK3LqRbrPuxg5cMvaeJtCjSVSYLIT0sKsRfKz2DJBggQ5Cv6+/m18Vjw5oWVg84PFfVgL6vT9gEs96sH 1010666711@qq.com
+
+步骤3：git的密钥配置在github上
+![](/assets/github密钥配置.jpg)
+
+
+步骤4：验证git密钥配置是否生效
+运行命令：ssh -T git@github.com
+提示：Hi xxx! You've successfully authenticated, but GitHub does not provide shell  access.即为成功
+![](/assets/验证git密钥.jpg)
+
+
+
+
+
+
+
 
 
 
