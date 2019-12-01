@@ -43,7 +43,45 @@ apt-get -f install
 ![](/assets/erlang安装成功.jpg)
 
 #### 3.4 验证erlang是否安装成功
-输入命令：erl 如下图成功
+erl    # 查看relang语言版本，成功执行则说明relang安装成功
 ![](/assets/验证erl.jpg)
+
+
+
+### 4、安装RabbitMq
+.由于rabbitMq需要erlang语言的支持，在安装rabbitMq之前需要安装erlang
+
+#### 4.1 添加公钥
+
+命令：wget -O- https://www.rabbitmq.com/rabbitmq-release-signing-key.asc | sudo apt-key add -
+![](/assets/添加公钥.jpg)
+
+
+#### 4.2 更新软件包
+
+命令：apt-get update
+
+#### 4.3 安装 RabbitMQ
+安装成功自动启动
+命令：apt-get install rabbitmq-server  
+![
+](/assets/安装MQ.jpg)
+
+#### 4.4 查看 RabbitMq状态
+systemctl status rabbitmq-server   #Active: active (running) 说明处于运行状态
+service rabbitmq-server status 用service指令也可以查看，同systemctl指令
+![](/assets/MQ状态.jpg)
+
+
+#### 4.5 启动、停止、重启
+service rabbitmq-server start    # 启动
+service rabbitmq-server stop     # 停止
+service rabbitmq-server restart  # 重启 
+
+
+#### 4.6 启用 web端可视化操作界面，我们还需要配置Management Plugin插件
+rabbitmq-plugins enable rabbitmq_management   # 启用插件
+service rabbitmq-server restart    # 重启
+
 
 
