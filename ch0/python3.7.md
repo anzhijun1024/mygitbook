@@ -37,6 +37,14 @@ sudo pip3 install --upgrade pip
 查看python3.7版本
 ![](/assets/python3版本.jpg)
 
+### 5、如何实现把python3.7设置成全局变量
+#### 5.1 删除/usr/bin/python原来的软链  
+进入/usr/bin/目录下执行如下命令
+rm python 即可  查看是否删除 ll
 
+#### 5.2 设置新软链
+命令：ln -s /software/python3.7.0/python /usr/bin/python
+
+![](/assets/新软链.jpg)
 
 
