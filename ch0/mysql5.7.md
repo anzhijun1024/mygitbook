@@ -2,8 +2,7 @@
 
 ## 1.安装依赖包
 
-
-
+1
 ```
 sudo apt-get update
 
