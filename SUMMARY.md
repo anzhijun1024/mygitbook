@@ -1,7 +1,7 @@
 # Summary
 
 * [Python接口自动化测试学习笔记](README.md)
-* [环境准备](ch0/preface.md)
+* [软件安装](ch0/preface.md)
     * [windows下安装pycharm](ch0/pycharm.md)
     * [windows下安装postman](ch0/postman.md)
     * [windows下安装jmeter](ch0/jmeter.md)
