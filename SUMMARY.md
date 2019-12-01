@@ -6,7 +6,7 @@
     * [windows下安装postman](ch0/postman.md)
     * [windows下安装jmeter](ch0/jmeter.md)
     * [阿里云安装mysql 5.7 并实现远程连接](ch0/mysql5.7.md)
-    * [阿里云安装python3.7 ](ch0/mysql5.7.md)
+    * [阿里云安装python3.7 ](ch0/python3.7.md)
     * [学习心得](ch1/java.md)
 
 ## 每天学习2小时 坚持5周 拿下接口自动化
