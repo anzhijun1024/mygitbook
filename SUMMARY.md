@@ -5,7 +5,7 @@
     * [windows下安装pycharm](ch0/pycharm.md)
     * [windows下安装postman](ch0/postman.md)
     * [windows下安装jmeter](ch0/jmeter.md)
-    * [阿里云安装mysql 5.7 并实现远程连接](ch0/mysql5.7.md)
+    * [ubuntu16.04安装mysql 5.7 并实现远程连接](ch0/mysql5.7.md)
     * [ubuntu16.04安装python3.7](ch0/python3.7.md)
     * [学习心得](ch1/java.md)
 
