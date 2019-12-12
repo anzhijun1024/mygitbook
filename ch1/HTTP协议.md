@@ -47,7 +47,7 @@
     我们在浏览器输入百度首页的地址：https://www.baidu.com/ 输入之后浏览器会给我们打开百度首页。实际上这个过程是浏览器向网站所在的服务器发送了一个 Request，即请求，网站服务器接收到这个 Request 之后进行处理和解析，然后返回对应的一个 Response，即响应，然后传回给浏览器，Response 里面就包含了页面的源代码等内容，浏览器再对其进行解析便将网页呈现了出来。
 ![](/assets/snipaste20191212_104140.jpg)
 
-### Request
+## Request
     Request，即请求，由客户端向服务端发出。可以将 Request 划分为四部分内容：
     •  Request Method: 请求方式
     •  Request URL: 请求链接
@@ -82,9 +82,102 @@
     OPTIONS  允许客户端查看服务器的性能。
     TRACE    回显服务器收到的请求，主要用于测试或诊断。
     
-    
-    
 
+    
+### Request URL
+    Request URL 就是请求的网址，即统一资源定位符。
+    用 URL 可以唯一确定我们想请求的资源。比如https://www.baidu.com/
+
+
+### Request Headers  请求头
+
+    请求头，用来说明服务器要使用的附加信息。
+    比较重要的信息有 Cookie、Referer、User-Agent 等
+    常用的头信息说明如下：
+    
+        •  Accept ，请求报头域，用于指定客户端可接受哪些类型的信息。
+        •  Accept-Language ，指定客户端可接受的语言类型。
+        •  Accept-Encoding ，指定客户端可接受的内容编码。
+        •  Host ，用于指定请求资源的主机 IP 和端口号，其内容为请求 URL 的原始服务器或网关的位置。从 HTTP
+            1.1 版本开始，Request 必须包含此内容。
+        •  Cookie ，也常用复数形式 Cookies，是网站为了辨别用户进行 Session 跟踪而储存在用户本地的数据。
+            Cookies 的主要功能就是维持当前访问会话。
+        •  Referer ，此内容用来标识这个请求是从哪个页面发过来的，服务器可以拿到这一信息并做相应的处理，如
+            做来源统计、做防盗链处理等。
+        •  User-Agent ，简称 UA，它是一个特殊字符串头，使得服务器能够识别客户使用的操作系统及版本、浏览器
+            及版本等信息。在做爬虫时加上此信息可以伪装为浏览器，如果不加很可能会被识别出为爬虫。
+        •  Content-Type ，即 Internet Media Type，互联网媒体类型，也叫做 MIME 类型，在 HTTP 协议消息头
+            中，使用它来表示具体请求中的媒体类型信息。例如  application/x-www-form-urlencoded 表示表单数
+            据，  text/html 代表 HTML 格式， image/gif 代表 GIF 图片， application/json 代表 Json 类型，
+![](/assets/snipaste20191212_134644.jpg)
+
+### Request Body 请求体
+    请求体，一般用于 POST 请求中，主要定义向服务器提交的数据类型。
+    对于 GET 请求 Request Body 则为空
+
+    常用 Content-Type 和 POST 提交数据方式的关系：
+    
+            Content-Type                          提交数据方式
+            
+    application/x-www-form-urlencoded              Form 表单提交
+    multipart/form-data                            表单文件上传提交
+    application/json                              序列化 Json 数据提交
+    text/xml                                      XML 数据提交
+            
+     application/x-www-form-urlencoded 与 multipart/form-data 区别
+         •  在没有 type=file 时候，用默认的  application/x-www-form-urlencoded 就行。
+         •  在有  type=file 时候，要用 multipart/form-data 编码方式。浏览器会把表单以控件为单位分割，
+             并且为每个部分加上 Content-Dispositon(form-data 或 file) 、 Content-Type (默认 text/plain)、
+             name (控件 name)等信息，并加上分割符(boundary)。
+
+## Response  响应
+    Response，即响应，由服务端返回给客户端。Response 可以划分为三部分:
+        •  Response Status Code    响应状态码
+        •  Response Headers        响应头
+        •  Response Body           响应体
+            
+    
+### Response Status Code  响应状态码
+    
+    响应状态码，此状态码表示了服务器的响应状态，如 200 则代表服务器正常响应。
+    
+    常用响应状态码如下：
+        状态码 说明      详情
+        200  成功        服务器已成功处理了请求。
+        201  已创建      请求成功并且服务器创建了新的资源。
+        301  永久移动    请求的网页已永久移动到新位置，即永久重定向。
+        302  临时移动    请求的网页暂时跳转到其他页面，即暂时重定向。
+        400  错误请求    服务器无法解析该请求。
+        401  未授权      请求没有进行身份验证或验证未通过。
+        403  禁止访问    服务器拒绝此请求。
+        404  未找到      服务器找不到请求的网页。
+        500  服务器内部错误  服务器遇到错误，无法完成请求。
+        501  未实现      服务器不具备完成请求的功能。
+        502  错误网关     服务器作为网关或代理，从上游服务器收到无效响应。
         
-     
+扩展资料：HTTP 响应码 https://tool.oschina.net/commons?type=5
+            
+### Response Headers 响应头
+
+    响应头，其中包含了服务器对请求的应答信息，如 Content-Type、Server、Set-Cookie 等。
+    
+    下面将一些常用的头信息说明如下：
+        •  Date ，标识 Response 产生的时间。
+        •  Last-Modified ，指定资源的最后修改时间。
+        •  Content-Encoding ，指定 Response 内容的编码。
+        •  Server ，包含了服务器的信息，名称，版本号等。
+        •  Content-Type ，文档类型，指定了返回的数据类型是什么，如 text/html 则代表返回 HTML 文档，
+            application/x-javascript 则代表返回 JavaScript 文件，image/jpeg 则代表返回了图片。
+        •  Set-Cookie ，设置 Cookie，Response Headers 中的 Set-Cookie 即告诉浏览器需要将此内容放在
+            Cookies 中，下次请求携带 Cookies 内容。
+        •  Expires ，指定 Response 的过期时间，使用它可以控制代理服务器或浏览器将内容更新到缓存中，如果再
+            次访问时，直接从缓存中加载，降低服务器负载，缩短加载时间。
+![](/assets/响应头.jpg)
+            
+### Response Body  响应体
+
+    即响应体，响应的正文数据都是在响应体中。
+    如请求一个网页，它的响应体就是网页的 HTML 代码。
+    如请求一张图片，它的响应体就是图片的二进制数据。
+    一般在接口的响应内容大多都是 Json 数据内容.
     
