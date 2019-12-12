@@ -3,6 +3,7 @@
 * [Python学习笔记](README.md)
 * [软件安装](ch0/preface.md)
     * [windows下安装pycharm](ch0/pycharm.md)
+    * [ubuntu16.04安装java](ch0/ubuntu16.04安装java.md)
     * [windows下安装postman](ch0/postman.md)
     * [windows下安装jmeter](ch0/jmeter.md)
     * [ubuntu16.04安装mysql 5.7 并实现远程连接](ch0/mysql5.7.md)
