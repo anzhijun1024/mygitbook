@@ -45,7 +45,54 @@
 JSON 库官方文档 https://docs.python.org/3/library/json.html   
 
 
-    json.dumps()
-    将 python 数据转化为 Json 数据 json_dumps.py
-            
+#### json.dumps()    
+####  将 python 数据转化为 Json 数据 json_dumps.py
+    
+        import json
+        data={'id':1,'name':'51zxw','password':'66666'}
+        print(type(data))
+        json_str=json.dumps(data)
+        print(type(json_str))
+        print(json_str)
+                
+        <class 'dict'>
+        <class 'str'>
+        {"id": 1, "name": "51zxw", "password": "66666"}
+        
+        由此打印结果可看，json的格式为str字符串
+![](/assets/5B050A00-49BE-43e6-9703-FD77F9E12051.png)
+
+#### json.loads()
+#### 将 json 数据类型转为 Python 数据类型 json_loads.py
+    import json
+    json_str='{"id":1,"name":"51zxw","password":"66666"}'
+    data=json.loads(json_str)
+    print(type(json_str))
+    print(type(data))
+    print(data)
+    print(data['id'])
+    print(data['name'])
+    输出结果：
+    <class 'str'>
+    <class 'dict'>
+    {'name': '51zxw', 'password': '66666', 'id': 1}
+    1
+    51zxw
+    
+![](/assets/jsondumps.jpg)
+
+
+#### Json 文件处理
+
+    有时我们可能需要将 JSON 数据写入到文件，或者从 Json 数据文件读取数据
+    
+    #  写入 JSON  数据到文件
+    with open('data.json', 'w') as f:
+        json.dump(data, f)
+        
+    #  读取 JSON 数据文件
+    with open('data.json', 'r') as f:
+        data = json.load(f)
+    
+
             

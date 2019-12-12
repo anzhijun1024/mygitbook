@@ -15,7 +15,7 @@
 * [模块1：我要自学网-Python接口自动化测试教程](ch1/README.md)
     * [1.课程简介&接口测试概述](ch1/gaisu.md)
     * [2.HTTP协议基础](ch1/HTTP协议.md)
-    * [3.JSON数据](ch1/Json.md)
+    * [3.JSON数据](ch1/Json教程.md)
     * [4.Postman教案](ch1/Postman.md)
     * [5.Jmeter接口测试 ](ch1/jmeterTest.md)
     * [6.Jmeter+Ant+Jenkins接口自动化测试平台](ch1/Jmeter+Ant+Jenkins.md)
