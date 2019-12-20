@@ -24,3 +24,50 @@
      
  6、用navicat连接mysql:
  ![](/assets/那白天.jpg)
+ 
+ 会有如下报2003错误
+ ![](/assets/2003.jpg)
+ 
+ 接下来解决报错
+
+修改mysqld.cnf文件，注释掉bind-address=127.0.0.1一行，注释方法：在行首添加 # 号
+    udo nano /etc/mysql/mysql.conf.d/mysqld.cnf
+    
+找到bind-address  = 127.0.0.1一行，如下 
+![](/assets/address.jpg)
+
+重启Ubuntu MySQL服务
+    sudo service mysql restart
+    
+输入MySQL密码，进入到mysql命令行，按如下步骤进行设置
+    mysql> use mysql;
+    Reading table information for completion of table and column names
+    You can turn off this feature to get a quicker startup with -A
+     
+    Database changed
+    mysql> select 'host' from user where user='root';
+    +------+
+    | host |
+    +------+
+    | host |
+    +------+
+    1 row in set (0.00 sec)
+    mysql> update user set host = '%' where user ='root';
+    Query OK, 1 row affected (0.00 sec)
+    Rows matched: 1  Changed: 1  Warnings: 0
+    mysql> flush privileges;
+    Query OK, 0 rows affected (0.00 sec)
+    mysql> select 'host'   from user where user='root';
+    +------+
+    | host |
+    +------+
+    | host |
+    +------+
+    1 row in set (0.00 sec)
+    mysql>
+    mysql> quit;
+    Bye
+
+再次点击Navicat的连接测试，提示连接成功
+![](/assets/连接数据库成功.jpg)
+
