@@ -7,7 +7,7 @@
   * [ubuntu16.04安装java](ch0/ubuntu16.04安装java.md)
   * [ubuntu16.04安装jmeter](ch0/jmeter.md)
   * [ubuntu16.04下安装jenkins](ch0/jenkins.md)
-  * [ubuntu16.04下安装tomcat](ch0/jenkins.md)
+  * [ubuntu16.04下安装tomcat](ch0/tomcat.md)
 
   
   * [学习心得](ch0/java.md)
