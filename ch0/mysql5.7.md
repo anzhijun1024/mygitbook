@@ -68,6 +68,8 @@
     mysql> quit;
     Bye
 
+
 再次点击Navicat的连接测试，提示连接成功
+
 ![](/assets/连接数据库成功.jpg)
 
