@@ -2,15 +2,16 @@
 
 * [Python学习笔记](README.md)
 * [软件安装](ch0/preface.md)
-  * [ubuntu16.04安装python3.7](ch0/python3.7.md)
-  * [ubuntu16.04安装mysql 5.7 并实现远程连接](ch0/mysql5.7.md)
-  * [ubuntu16.04安装java](ch0/ubuntu16.04安装java.md)
-  * [ubuntu16.04安装jmeter](ch0/jmeter.md)
-  * [ubuntu16.04下安装jenkins](ch0/jenkins.md)
+  * [01 ubuntu16.04安装python3.7](ch0/python3.7.md)
+  * [02 ubuntu16.04安装mysql 5.7 并实现远程连接](ch0/mysql5.7.md)
+  * [03 ubuntu16.04安装java](ch0/ubuntu16.04安装java.md)
+  * [04 ubuntu16.04安装jmeter](ch0/jmeter.md)
+  * [05 ubuntu16.04下安装jenkins](ch0/jenkins.md)
   * [ubuntu16.04下安装tomcat](ch0/tomcat.md)
 
-  
-  * [学习心得](ch0/java.md)
+---
+
+* [学习心得](ch0/java.md)
 
 ## 每天学习坚持2小时 12月内学会接口自动化
 
